@@ -1,0 +1,44 @@
+name: ticket_colombia_web
+description: Ticket Colombia Web Application
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Navigation
+  cupertino_icons: ^1.0.2
+  material_design_icons_flutter: ^7.0.7296
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # HTTP & API
+  http: ^1.1.0
+  dio: ^5.3.2
+  
+  # Local Storage
+  shared_preferences: ^2.2.2
+  
+  # Date & Time
+  intl: ^0.18.1
+  
+  # QR Code Generation
+  qr_flutter: ^4.1.0
+  
+  # Toast Messages
+  fluttertoast: ^8.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

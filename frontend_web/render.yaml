@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ticketcolombia-frontend
+    env: static
+    plan: free
+    buildCommand: flutter build web --release
+    staticPublishPath: build/web
+    envVars:
+      - key: API_BASE_URL
+        value: https://ticketcolombia-backend.onrender.com

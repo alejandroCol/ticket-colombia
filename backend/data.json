@@ -1,0 +1,526 @@
+{
+    "events": [
+        {
+            "id": 916,
+            "name": "Aura",
+            "description": "jknskjns",
+            "date": "2025-10-17T00:27:00.000",
+            "location": "jnskjns",
+            "createdBy": 1,
+            "createdAt": "2025-10-16T00:28:00.052999",
+            "isActive": true,
+            "ticketTypes": [
+                {
+                    "id": 398,
+                    "eventId": 916,
+                    "name": "ssjs",
+                    "price": 122.0,
+                    "maxQuantity": 12,
+                    "currentQuantity": 0
+                }
+            ]
+        },
+        {
+            "id": 892,
+            "name": "sjs",
+            "description": "jsns",
+            "date": "2025-10-23T01:29:00.000",
+            "location": "sjs",
+            "createdBy": 1,
+            "createdAt": "2025-10-16T01:30:07.500250",
+            "isActive": true,
+            "ticketTypes": [
+                {
+                    "id": 797,
+                    "eventId": 892,
+                    "name": "ssds",
+                    "price": 2222.0,
+                    "maxQuantity": 22,
+                    "currentQuantity": 0
+                }
+            ]
+        },
+        {
+            "id": 216,
+            "name": "sdsd",
+            "description": "dsds",
+            "date": "2025-10-17T01:41:00.000",
+            "location": "dsdsds",
+            "createdBy": 1,
+            "createdAt": "2025-10-16T01:41:12.365592",
+            "isActive": true,
+            "ticketTypes": [
+                {
+                    "id": 9,
+                    "eventId": 216,
+                    "name": "dssdd",
+                    "price": 3223.0,
+                    "maxQuantity": 222,
+                    "currentQuantity": 0
+                }
+            ]
+        },
+        {
+            "id": 427,
+            "name": "Aura",
+            "description": "El evento de afro mas grande de Colombia",
+            "date": "2025-10-31T21:43:00.000",
+            "location": "Cali Pance",
+            "createdBy": 1,
+            "createdAt": "2025-10-16T21:44:12.273725",
+            "isActive": true,
+            "ticketTypes": [
+                {
+                    "id": 292,
+                    "eventId": 427,
+                    "name": "General Early",
+                    "price": 100000.0,
+                    "maxQuantity": 100,
+                    "currentQuantity": 0
+                },
+                {
+                    "id": 40,
+                    "eventId": 427,
+                    "name": "VIP",
+                    "price": 200000.0,
+                    "maxQuantity": 50,
+                    "currentQuantity": 0
+                }
+            ]
+        }
+    ],
+    "tickets": [
+        {
+            "id": 740,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Alejandro Martinez",
+            "attendeeEmail": "ale.mar.guz@gmail.com",
+            "attendeePhone": "+57 300 123 4567",
+            "qrCode": "QR-1760591591330-2934",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T00:13:11.335080"
+        },
+        {
+            "id": 322,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Test User",
+            "attendeeEmail": "test@example.com",
+            "attendeePhone": "+57 300 123 4567",
+            "qrCode": "QR-1760591618114-6488",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T00:13:38.114160"
+        },
+        {
+            "id": 520,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Alejandro Martinez",
+            "attendeeEmail": "ale.mar.guz@gmail.com",
+            "attendeePhone": "+57 300 123 4567",
+            "qrCode": "QR-1760591945523-2964",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T00:19:05.528251"
+        },
+        {
+            "id": 49,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Alejandro Martinez",
+            "attendeeEmail": "ale.mar.guz@gmail.com",
+            "attendeePhone": "+57 300 123 4567",
+            "qrCode": "QR-1760592311135-4566",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T00:25:11.140306"
+        },
+        {
+            "id": 669,
+            "eventId": 916,
+            "ticketTypeId": 432,
+            "attendeeName": "knkjana",
+            "attendeeEmail": "amarquitectosa@gmail.com",
+            "attendeePhone": "23323223",
+            "qrCode": "QR-1760592491868-9791",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T00:28:11.868132"
+        },
+        {
+            "id": 215,
+            "eventId": 916,
+            "ticketTypeId": 432,
+            "attendeeName": "xksks",
+            "attendeeEmail": "ale.mar.guz@gmail.com",
+            "attendeePhone": "28827272",
+            "qrCode": "QR-1760592580602-8845",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T00:29:40.602117"
+        },
+        {
+            "id": 538,
+            "eventId": 916,
+            "ticketTypeId": 432,
+            "attendeeName": "klsns",
+            "attendeeEmail": "amstudioscol@gmail.com",
+            "attendeePhone": "1818911",
+            "qrCode": "QR-1760592624918-9277",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T00:30:24.918937"
+        },
+        {
+            "id": 99,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Test QR Real",
+            "attendeeEmail": "test@example.com",
+            "attendeePhone": "+57 300 123 4567",
+            "qrCode": "QR-1760592752343-2256",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T00:32:32.348268"
+        },
+        {
+            "id": 653,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Test User",
+            "attendeeEmail": "test@example.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760593202842-3325",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T00:40:02.842892"
+        },
+        {
+            "id": 501,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Test QR",
+            "attendeeEmail": "testqr@example.com",
+            "attendeePhone": "9876543210",
+            "qrCode": "QR-1760593213234-9138",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T00:40:13.234637"
+        },
+        {
+            "id": 912,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Test Attachments",
+            "attendeeEmail": "testattachments@example.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760593539750-8749",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T00:45:39.755519"
+        },
+        {
+            "id": 153,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Test CID Fix",
+            "attendeeEmail": "testcid@example.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760593796528-3244",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T00:49:56.532909"
+        },
+        {
+            "id": 999,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Test CID Brackets",
+            "attendeeEmail": "testbrackets@example.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760594216359-9347",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T00:56:56.363456"
+        },
+        {
+            "id": 570,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Test Public URL",
+            "attendeeEmail": "testpublic@example.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760594635455-5246",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T01:03:55.459040"
+        },
+        {
+            "id": 554,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Test CID Fixed",
+            "attendeeEmail": "testcidfixed@example.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760595067513-9651",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T01:11:07.517404"
+        },
+        {
+            "id": 381,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Test Binary Format",
+            "attendeeEmail": "testbinary@example.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760595299050-3235",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T01:14:59.054977"
+        },
+        {
+            "id": 607,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Test SendGrid",
+            "attendeeEmail": "testsendgrid@example.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760595548621-2388",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T01:19:08.625531"
+        },
+        {
+            "id": 396,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Test Brevo",
+            "attendeeEmail": "testbrevo@example.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760596085005-1624",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T01:28:05.009494"
+        },
+        {
+            "id": 57,
+            "eventId": 892,
+            "ticketTypeId": 137,
+            "attendeeName": "sdsd",
+            "attendeeEmail": "amarquitectosa@gmail.com",
+            "attendeePhone": "820202082",
+            "qrCode": "QR-1760596220231-1424",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T01:30:20.231893"
+        },
+        {
+            "id": 575,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Alejandro Martinez",
+            "attendeeEmail": "amarquitectosa@gmail.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760596530765-5040",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T01:35:30.769379"
+        },
+        {
+            "id": 108,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Alejandro Martinez",
+            "attendeeEmail": "amarquitectosa@gmail.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760596754121-4620",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T01:39:14.125308"
+        },
+        {
+            "id": 511,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Test Brevo",
+            "attendeeEmail": "test@example.com",
+            "attendeePhone": "9876543210",
+            "qrCode": "QR-1760596770230-5144",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T01:39:30.230263"
+        },
+        {
+            "id": 17,
+            "eventId": 216,
+            "ticketTypeId": 357,
+            "attendeeName": "xddssd",
+            "attendeeEmail": "amstudioscol@gmail.com",
+            "attendeePhone": "72381371313",
+            "qrCode": "QR-1760596904509-7439",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T01:41:44.509677"
+        },
+        {
+            "id": 816,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Alejandro Martinez",
+            "attendeeEmail": "amarquitectosa@gmail.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760597257495-5826",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T01:47:37.499845"
+        },
+        {
+            "id": 312,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Alejandro Martinez",
+            "attendeeEmail": "ale.mar.guz@gmail.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760597402156-7032",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T01:50:02.156071"
+        },
+        {
+            "id": 693,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Alejandro Martinez",
+            "attendeeEmail": "ale.mar.guz@gmail.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760597472406-2519",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T01:51:12.410262"
+        },
+        {
+            "id": 628,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Alejandro Martinez",
+            "attendeeEmail": "ale.mar.guz@gmail.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760597731211-5007",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T01:55:31.215726"
+        },
+        {
+            "id": 552,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Alejandro Martinez",
+            "attendeeEmail": "ale.mar.guz@gmail.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760597918134-6421",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T01:58:38.139621"
+        },
+        {
+            "id": 987,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Alejandro Martinez",
+            "attendeeEmail": "ale.mar.guz@gmail.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760598442521-3278",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T02:07:22.527116"
+        },
+        {
+            "id": 172,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Alejandro Martinez",
+            "attendeeEmail": "ale.mar.guz@gmail.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760598703340-3939",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T02:11:43.344634"
+        },
+        {
+            "id": 98,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Alejandro Martinez",
+            "attendeeEmail": "ale.mar.guz@gmail.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760599116795-2333",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T02:18:36.800911"
+        },
+        {
+            "id": 297,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Alejandro Martinez",
+            "attendeeEmail": "amarquitectosa@gmail.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760599244682-4950",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T02:20:44.686404"
+        },
+        {
+            "id": 259,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Alejandro Martinez",
+            "attendeeEmail": "amarquitectosa@gmail.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760599410589-2758",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T02:23:30.593998"
+        },
+        {
+            "id": 170,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Alejandro Martinez",
+            "attendeeEmail": "amarquitectosa@gmail.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760599495160-9560",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T02:24:55.164742"
+        },
+        {
+            "id": 426,
+            "eventId": 427,
+            "ticketTypeId": 489,
+            "attendeeName": "Lina Ospina",
+            "attendeeEmail": "linamariaospina20@gmail.com",
+            "attendeePhone": "3183941597",
+            "qrCode": "QR-1760669103606-6879",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T21:45:03.606357"
+        },
+        {
+            "id": 223,
+            "eventId": 1,
+            "ticketTypeId": 1,
+            "attendeeName": "Test User",
+            "attendeeEmail": "test@example.com",
+            "attendeePhone": "1234567890",
+            "qrCode": "QR-1760669686685-2511",
+            "isUsed": false,
+            "status": "VALID",
+            "createdAt": "2025-10-16T21:54:46.689997"
+        }
+    ]
+}

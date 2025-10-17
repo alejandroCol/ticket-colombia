@@ -1,0 +1,68 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:14
+    environment:
+      POSTGRES_DB: ticketcolombia
+      POSTGRES_USER: ticketcolombia
+      POSTGRES_PASSWORD: ticketcolombia123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - ticketcolombia-network
+
+  # Backend API
+  backend:
+    build: ./backend
+    ports:
+      - "8080:8080"
+    environment:
+      - DATABASE_URL=jdbc:postgresql://postgres:5432/ticketcolombia
+      - DATABASE_USER=ticketcolombia
+      - DATABASE_PASSWORD=ticketcolombia123
+      - JWT_SECRET=your-super-secret-jwt-key-here
+      - JWT_ISSUER=ticketcolombia
+      - JWT_AUDIENCE=ticketcolombia-users
+      - RESEND_API_KEY=your-resend-api-key-here
+    depends_on:
+      - postgres
+    networks:
+      - ticketcolombia-network
+
+  # Frontend Web (Flutter Web)
+  frontend-web:
+    build: ./frontend_web
+    ports:
+      - "3000:3000"
+    environment:
+      - API_BASE_URL=http://backend:8080
+    depends_on:
+      - backend
+    networks:
+      - ticketcolombia-network
+
+  # Nginx Reverse Proxy
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./ssl:/etc/nginx/ssl
+    depends_on:
+      - backend
+      - frontend-web
+    networks:
+      - ticketcolombia-network
+
+volumes:
+  postgres_data:
+
+networks:
+  ticketcolombia-network:
+    driver: bridge
