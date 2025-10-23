@@ -5,8 +5,13 @@ import '../models/user.dart';
 import '../models/ticket.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://10.0.2.2:8080'; // Para Android emulator
+  // Producción
+  static const String baseUrl = 'https://ticketcolombia-backend.onrender.com';
+  
+  // Desarrollo
+  // static const String baseUrl = 'http://10.0.2.2:8080'; // Para Android emulator
   // static const String baseUrl = 'http://localhost:8080'; // Para iOS simulator
+  
   static const String authTokenKey = 'auth_token';
 
   // Headers helper
@@ -83,3 +88,4 @@ class ApiService {
     }
   }
 }
+
