@@ -1,10 +1,21 @@
 services:
   - type: web
     name: ticketcolombia-frontend
-    env: static
-    plan: free
-    buildCommand: flutter build web --release
-    staticPublishPath: build/web
+    env: node
+    rootDir: frontend_web
+    buildCommand: |
+      # Instalar Flutter
+      git clone https://github.com/flutter/flutter.git -b stable --depth 1 /opt/render/flutter
+      export PATH="/opt/render/flutter/bin:$PATH"
+      flutter config --no-analytics
+      flutter precache --web
+      # Build del proyecto
+      flutter build web --release
+      # Instalar dependencias de Node
+      npm install
+    startCommand: npm start
     envVars:
-      - key: API_BASE_URL
-        value: https://ticketcolombia-backend.onrender.com
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
