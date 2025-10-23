@@ -2,20 +2,14 @@ services:
   - type: web
     name: ticketcolombia-frontend
     env: node
-    rootDir: frontend_web
     buildCommand: |
-      # Instalar Flutter
       git clone https://github.com/flutter/flutter.git -b stable --depth 1 /opt/render/flutter
       export PATH="/opt/render/flutter/bin:$PATH"
       flutter config --no-analytics
       flutter precache --web
-      # Build del proyecto
       flutter build web --release
-      # Instalar dependencias de Node
       npm install
     startCommand: npm start
     envVars:
       - key: NODE_ENV
         value: production
-      - key: PORT
-        value: 10000
