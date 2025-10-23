@@ -23,8 +23,14 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(buildPath, 'index.html'));
 });
 
-app.listen(port, '0.0.0.0', () => {
+const server = app.listen(port, '0.0.0.0', () => {
   console.log(`🚀 Frontend running on port ${port}`);
   console.log(`📱 Server is ready!`);
+  console.log(`🌐 Listening on 0.0.0.0:${port}`);
+});
+
+server.on('error', (error) => {
+  console.error('❌ Server error:', error);
+  process.exit(1);
 });
 
