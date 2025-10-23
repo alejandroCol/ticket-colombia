@@ -3,7 +3,11 @@ services:
     name: ticketcolombia-frontend
     env: node
     buildCommand: |
-      git clone https://github.com/flutter/flutter.git -b stable --depth 1 /opt/render/flutter
+      if [ ! -d "/opt/render/flutter" ]; then
+        git clone https://github.com/flutter/flutter.git -b stable --depth 1 /opt/render/flutter
+      else
+        echo "Flutter already exists, skipping clone"
+      fi
       export PATH="/opt/render/flutter/bin:$PATH"
       flutter config --no-analytics
       flutter precache --web
