@@ -33,7 +33,7 @@ FROM openjdk:17-slim
 WORKDIR /app
 
 # Copiar el JAR compilado desde la etapa de build
-COPY --from=build /app/build/libs/*-all.jar app.jar
+COPY --from=build /app/build/libs/ticket-colombia-backend-all.jar app.jar
 
 # Exponer el puerto 8080
 EXPOSE 8080
