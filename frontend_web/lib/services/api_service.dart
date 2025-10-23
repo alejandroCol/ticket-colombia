@@ -6,7 +6,7 @@ import '../models/event.dart';
 import '../models/ticket.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://localhost:8080';
+  static const String baseUrl = 'https://ticketcolombia-backend.onrender.com';
   static const String authTokenKey = 'auth_token';
 
   // Headers helper
