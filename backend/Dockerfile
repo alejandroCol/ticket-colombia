@@ -3,10 +3,10 @@ FROM gradle:7.6-jdk17 AS build
 
 WORKDIR /app
 
-# Copiar archivos de configuración de Gradle
-COPY build.gradle.kts settings.gradle.kts ./
-COPY gradle gradle
-COPY gradlew ./
+# Copiar archivos de configuración de Gradle desde la carpeta backend
+COPY backend/build.gradle.kts backend/settings.gradle.kts ./
+COPY backend/gradle gradle
+COPY backend/gradlew ./
 
 # Dar permisos de ejecución al gradlew
 RUN chmod +x gradlew
@@ -15,7 +15,7 @@ RUN chmod +x gradlew
 RUN ./gradlew dependencies --no-daemon || true
 
 # Copiar código fuente
-COPY src src
+COPY backend/src src
 
 # Compilar la aplicación y crear el JAR ejecutable
 RUN ./gradlew shadowJar --no-daemon --stacktrace
