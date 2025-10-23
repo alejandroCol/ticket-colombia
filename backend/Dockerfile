@@ -1,5 +1,5 @@
 # Etapa 1: Build - Compilar la aplicación
-FROM gradle:7.6-jdk16 AS build
+FROM gradle:7.6-jdk17 AS build
 
 WORKDIR /app
 
@@ -21,7 +21,7 @@ COPY src src
 RUN ./gradlew shadowJar --no-daemon --stacktrace
 
 # Etapa 2: Runtime - Imagen final más pequeña
-FROM openjdk:16-slim
+FROM openjdk:17-slim
 
 WORKDIR /app
 
