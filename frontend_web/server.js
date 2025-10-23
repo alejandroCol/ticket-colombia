@@ -15,6 +15,11 @@ if (!fs.existsSync(buildPath)) {
   process.exit(1);
 }
 
+// Health check endpoint (MUST be before static files)
+app.get('/health', (req, res) => {
+  res.status(200).json({ status: 'ok', message: 'Server is healthy' });
+});
+
 // Servir archivos estáticos desde build/web
 app.use(express.static(buildPath));
 
